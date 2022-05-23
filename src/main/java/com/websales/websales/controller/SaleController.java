@@ -14,7 +14,7 @@ import com.websales.websales.model.Sale;
 import com.websales.websales.service.SaleService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class SaleController {
 
 	@Autowired
