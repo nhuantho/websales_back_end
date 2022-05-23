@@ -17,7 +17,7 @@ import com.websales.websales.model.Product;
 import com.websales.websales.service.ProductSevice;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class ProductController {
     @Autowired
     private ProductSevice service;
