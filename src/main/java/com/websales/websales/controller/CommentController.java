@@ -15,7 +15,7 @@ import com.websales.websales.model.Comment;
 import com.websales.websales.service.CommentService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class CommentController {
 	@Autowired
     private CommentService service;
