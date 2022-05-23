@@ -16,7 +16,7 @@ import com.websales.websales.model.BillProduct;
 import com.websales.websales.service.BillProductService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class BillProductController {
     @Autowired
     private BillProductService service;
