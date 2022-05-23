@@ -15,7 +15,7 @@ import com.websales.websales.model.Cart;
 import com.websales.websales.service.CartService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class CartController {
     @Autowired
     private CartService service;
