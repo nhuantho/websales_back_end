@@ -16,7 +16,7 @@ import com.websales.websales.model.User;
 import com.websales.websales.service.UserService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class UserController {
     @Autowired
     private UserService service;
