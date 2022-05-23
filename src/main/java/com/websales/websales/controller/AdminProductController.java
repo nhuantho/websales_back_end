@@ -16,7 +16,7 @@ import com.websales.websales.model.AdminProduct;
 import com.websales.websales.service.AdminProductService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class AdminProductController {
     @Autowired
     private AdminProductService service;
