@@ -16,7 +16,7 @@ import com.websales.websales.model.Size;
 import com.websales.websales.service.SizeService;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://cute-lamington-afccc4.netlify.app/")
 public class SizeController {
     @Autowired
     private SizeService service;
